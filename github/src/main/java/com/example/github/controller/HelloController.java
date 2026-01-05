@@ -11,6 +11,6 @@ public class HelloController {
     }
     @GetMapping("/hello")
     public String hi(){
-        return "hello git-hub";
+        return "hello 1200 ";
     }
 }
