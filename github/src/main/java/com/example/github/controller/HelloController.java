@@ -12,6 +12,6 @@ public class HelloController {
     @GetMapping("/hello")
     public String hi(){
         System.out.println("sai ram");
-        return "hello 1200 ";
+        return "hello welocme to java ";
     }
 }
