@@ -9,4 +9,8 @@ public class HelloController {
     public String hello(){
         return "hello git";
     }
+    @GetMapping("/hello")
+    public String hi(){
+        return "hello git-hub";
+    }
 }
